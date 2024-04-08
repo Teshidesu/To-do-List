@@ -1,6 +1,6 @@
-Practice: DOM Manipulation
+# Practice: DOM Manipulation
 
-Here a practice was carried out creating a "To-do list" to learn how to use the DOM together with HTML5/CSS.
+`Here a practice was carried out creating a "To-do list" to learn how to use the DOM together with HTML5/CSS.`
 
 The DOM is an interface that allows programs to interact with HTML documents.
 Represents the document as a structure of objects.
