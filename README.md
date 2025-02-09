@@ -128,7 +128,7 @@ document.getElementById("username").value = "John Doe";
 ```
 
 ## 🚀 Boost Performance with documentFragment ⚡
-
+When adding multiple elements, use documentFragment to optimize performance:
 ```js
 const fragment = document.createDocumentFragment();
 for (let i = 0; i < 10; i++) {
