@@ -21,7 +21,7 @@ Validate the input of a form.
 Create interactive web applications. //
 ```
 
-📌 Selecting Elements the Smart Way 🎯
+## 📌 Selecting Elements the Smart Way 🎯
 
 ``` js
 // Single element selection
@@ -34,7 +34,7 @@ const items = document.querySelectorAll(".list-item");
 const title = document.getElementById("mainTitle");
 
 ```
-✍️ Modifying Content Dynamically 📝
+## ✍️ Modifying Content Dynamically 📝
 
 ```js
 
@@ -45,6 +45,45 @@ document.getElementById("title").textContent = "Hello, DOM!";
 document.getElementById("content").innerHTML = "<strong>Updated!</strong>";
 
 ```
+
+## 🎨 Styling Elements with JavaScript 🖌
+
+```js
+// Change styles directly
+document.getElementById("box").style.backgroundColor = "blue";
+
+// Add or remove CSS classes
+element.classList.add("highlight");  
+element.classList.remove("hidden");  
+element.classList.toggle("dark-mode"); // Switches class on/off
+```
+
+## 🖱 Handling Events Like a Boss ⚡
+```js
+// Click event on a button
+document.getElementById("myButton").addEventListener("click", () => {
+    alert("Button clicked!");
+});
+
+// Removing an event listener
+function handleClick() {
+    console.log("Clicked!");
+}
+button.addEventListener("click", handleClick);
+button.removeEventListener("click", handleClick);
+```
+
+## 🏗 Creating & Appending Elements 🏗
+
+```js
+// Create a new element and add it to the page
+const newDiv = document.createElement("div");
+newDiv.textContent = "I am new here!";
+document.body.appendChild(newDiv);
+
+// Insert inside another element
+document.getElementById("container").appendChild(newDiv);
+````
 
 
 
