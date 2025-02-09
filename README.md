@@ -84,6 +84,32 @@ document.body.appendChild(newDiv);
 // Insert inside another element
 document.getElementById("container").appendChild(newDiv);
 ````
+## 🗑 Removing Elements from the DOM ❌
+
+```js
+// Remove an element completely
+document.getElementById("oldElement").remove();
+
+// Remove a child element
+const parent = document.getElementById("container");
+const child = document.getElementById("childElement");
+parent.removeChild(child);
+```
+## ⏳ Delays & Repeated Actions ⏲
+
+```js
+// Delay execution (setTimeout)
+setTimeout(() => {
+    console.log("This runs after 2 seconds!");
+}, 2000);
+
+// Repeat an action (setInterval)
+setInterval(() => {
+    console.log("Repeating every 3 seconds!");
+}, 3000);
+````
+
+
 
 
 
