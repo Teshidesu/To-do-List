@@ -1,11 +1,119 @@
-@media screen {
-    
+/* Estilos base */
+body {
+    background-color: #FFF1E6; /* Color de fondo más suave */
+    font-family: Arial, sans-serif;
 }
 
-body{
-    background-color: bisque;
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
 }
 
-.my-5{
-    text-align: center;
+/* Animación de rebote para las imágenes */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+h1 img {
+    width: 80px; /* Tamaño de las carpetas */
+    animation: bounce 1.5s infinite ease-in-out;
+}
+
+/* Animación de entrada para el texto */
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Estilo mejorado para el texto "To-Do List" */
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* Espacio entre los elementos */
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: linear-gradient(45deg, #ff7eb3, #ff758c, #ff7eb3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    animation: fadeInScale 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efecto de brillo al pasar el mouse */
+h1:hover {
+    text-shadow: 5px 5px 10px rgba(255, 117, 140, 0.8);
+    transform: scale(1.1);
+}
+
+
+
+/* Formulario */
+form {
+    display: flex;
+    gap: 10px;
+}
+
+form input {
+    flex: 1;
+}
+
+form button {
+    flex-shrink: 0;
+}
+
+/* Lista de tareas */
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alert p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+i {
+    cursor: pointer;
+    margin-left: 8px;
+    transition: transform 0.2s;
+}
+
+i:hover {
+    transform: scale(1.2);
+}
+
+/* Hacerlo responsive */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    form button {
+        width: 100%;
+    }
 }
