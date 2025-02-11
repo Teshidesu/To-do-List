@@ -37,6 +37,7 @@ h1 img {
     }
 }
 
+
 /* Estilo mejorado para el texto "To-Do List" */
 h1 {
     display: flex;
@@ -60,7 +61,6 @@ h1:hover {
     text-shadow: 5px 5px 10px rgba(255, 117, 140, 0.8);
     transform: scale(1.1);
 }
-
 
 
 /* Formulario */
@@ -120,3 +120,4 @@ i:hover {
 
 
 
+/* YOLO */
