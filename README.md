@@ -8,6 +8,7 @@ Some **common use cases** of the DOM include:
 ✅ Validating form input.  
 ✅ Creating interactive web applications. 
 
+
 ```js
 // Let's manipulate the DOM like a pro! 🚀
 document.querySelector("h1").textContent = "Welcome to the DOM!";
@@ -26,7 +27,6 @@ Change the style of a web page according to the user's preferences.
 Validate the input of a form.
 Create interactive web applications. //
 ```
-
 ## 📌 Selecting Elements the Smart Way 🎯
 To manipulate the DOM, you first need to select elements efficiently. JavaScript provides various methods to do this:
 ``` js
