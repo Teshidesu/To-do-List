@@ -1,8 +1,6 @@
 # 🌟 Practice: DOM Manipulation with JavaScript 🚀
 
-
 Hey there, fellow coder! 👋 Ready to take control of the **DOM** like a pro? Here are some **essential tips** to manipulate the Document Object Model efficiently and make your websites more dynamic! ✨  
-
 
 Some **common use cases** of the DOM include:  
 ✅ Adding dynamic content to web pages.  
