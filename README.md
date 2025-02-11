@@ -9,6 +9,7 @@ Some **common use cases** of the DOM include:
 ✅ Creating interactive web applications. 
 
 ```js
+
 // Let's manipulate the DOM like a pro! 🚀
 document.querySelector("h1").textContent = "Welcome to the DOM!";
 document.body.style.backgroundColor = "#f4f4f4";
